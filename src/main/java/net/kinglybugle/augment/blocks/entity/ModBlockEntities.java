@@ -13,10 +13,8 @@ public class ModBlockEntities {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
             DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, Augment.MOD_ID);
 
-    public static final RegistryObject<BlockEntityType<CoalFiredBoilerBlockEntity>> COAL_FIRED_BOILER_BE =
-            BLOCK_ENTITIES.register("coal_fired_boiler_be", () ->
-                    BlockEntityType.Builder.of(CoalFiredBoilerBlockEntity::new,
-                            ModBlocks.COAL_FIRED_BOILER.get()).build(null));
+    public static final RegistryObject<BlockEntityType<CoalFiredBoilerBlockEntity>> COAL_FIRED_BOILER_BE = BLOCK_ENTITIES.register("coal_fired_boiler_be", () -> BlockEntityType.Builder.of(CoalFiredBoilerBlockEntity::new, ModBlocks.COAL_FIRED_BOILER.get()).build(null));
+    public static final RegistryObject<BlockEntityType<InjectionMoldingMachineBlockEntity>> INJECTION_MOLDING_MACHINE_BE = BLOCK_ENTITIES.register("injection_molding_machine_be", () -> BlockEntityType.Builder.of(InjectionMoldingMachineBlockEntity::new, ModBlocks.INJECTION_MOLDING_MACHINE.get()).build(null));
 
 
     public static void register(IEventBus eventBus){

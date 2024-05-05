@@ -1,5 +1,6 @@
-// 1.20.1	2024-05-04T19:22:28.3816719	Loot Tables
+// 1.20.1	2024-05-05T12:02:58.6193632	Loot Tables
 1b781325527f54bae07eb72449a7807b20c99256 data/augment/loot_tables/blocks/coal_fired_boiler.json
+e0180338e9d7d3b679b6978a77b828b3e206d034 data/augment/loot_tables/blocks/injection-molding_machine.json
 0f783fa71157064d2c738d29822f5cfb76e7d04e data/augment/loot_tables/blocks/resin_extractor_empty.json
 9c02690b2bc28d732e11bad8739abd67c80cad76 data/augment/loot_tables/blocks/resin_extractor_full.json
 77304596039d3b2b04a7f38dd5bdd69f03be8989 data/augment/loot_tables/blocks/semi_stripped_acacia_log.json

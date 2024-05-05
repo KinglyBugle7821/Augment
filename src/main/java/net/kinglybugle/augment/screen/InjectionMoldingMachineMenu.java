@@ -1,7 +1,7 @@
 package net.kinglybugle.augment.screen;
 
 import net.kinglybugle.augment.blocks.ModBlocks;
-import net.kinglybugle.augment.blocks.entity.CoalFiredBoilerBlockEntity;
+import net.kinglybugle.augment.blocks.entity.InjectionMoldingMachineBlockEntity;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
@@ -12,20 +12,27 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.SlotItemHandler;
 
-public class CoalFiredBoilingMenu extends AbstractContainerMenu {
+public class InjectionMoldingMachineMenu extends AbstractContainerMenu {
+    public static final int DYE_SLOT_X = 44;
+    public static final int DYE_SLOT_Y = 17;
+    public static final int RESIN_SLOT_X = 80;
+    public static final int RESIN_SLOT_Y = 17;
+    public static final int FLUID_SLOT_X = 98;
+    public static final int FLUID_SLOT_Y = 59;
+    public static final int OUTPUT_SLOT_X = 62;
+    public static final int OUTPUT_SLOT_Y = 59;
 
-    public final CoalFiredBoilerBlockEntity blockEntity;
+    public final InjectionMoldingMachineBlockEntity blockEntity;
     private final Level level;
     private final ContainerData data;
 
-    public CoalFiredBoilingMenu(int pContainerId, Inventory inv, FriendlyByteBuf extraData){
-        this(pContainerId, inv, inv.player.level().getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(CoalFiredBoilerBlockEntity.SLOT_SIZE));
+    public InjectionMoldingMachineMenu(int pContainerId, Inventory inv, FriendlyByteBuf extraData){
+        this(pContainerId, inv, inv.player.level().getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(InjectionMoldingMachineBlockEntity.SLOT_SIZE));
     }
-
-    public CoalFiredBoilingMenu(int pContainerId, Inventory inv, BlockEntity entity, ContainerData data){
-        super(ModMenuTypes.COAL_GENERATOR_MENU.get(), pContainerId);
-        checkContainerSize(inv,  CoalFiredBoilerBlockEntity.SLOT_SIZE);
-        blockEntity = ((CoalFiredBoilerBlockEntity) entity);
+    public InjectionMoldingMachineMenu(int pContainerId, Inventory inv, BlockEntity entity, ContainerData data){
+        super(ModMenuTypes.INJECTION_MOLDING_MACHINE_MENU.get(), pContainerId);
+        checkContainerSize(inv, InjectionMoldingMachineBlockEntity.SLOT_SIZE);
+        blockEntity = ((InjectionMoldingMachineBlockEntity) entity);
         this.level = inv.player.level();
         this.data = data;
 
@@ -33,24 +40,22 @@ public class CoalFiredBoilingMenu extends AbstractContainerMenu {
         addPlayerHotbar(inv);
 
         this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
-            this.addSlot(new SlotItemHandler(iItemHandler, 0, 27, 32));
-            this.addSlot(new SlotItemHandler(iItemHandler, 1, 123, 32));
+            this.addSlot(new SlotItemHandler(iItemHandler, 0, DYE_SLOT_X, DYE_SLOT_Y));
+            this.addSlot(new SlotItemHandler(iItemHandler, 1, RESIN_SLOT_X, RESIN_SLOT_Y));
+            this.addSlot(new SlotItemHandler(iItemHandler, 2, FLUID_SLOT_X, FLUID_SLOT_Y));
+            this.addSlot(new SlotItemHandler(iItemHandler, 3, OUTPUT_SLOT_X, OUTPUT_SLOT_Y));
         });
 
         addDataSlots(data);
-
     }
-
     public boolean isCrafting() {
         return data.get(0) > 0;
     }
-    public CoalFiredBoilerBlockEntity getBlockEntity() {
-        return this.blockEntity;
-    }
+
     public int getScaledProgress() {
         int progress = this.data.get(0);
-        int maxProgress = this.data.get(1);  // Max Progress
-        int progressArrowSize = 26; // This is the height in pixels of your arrow
+        int maxProgress = this.data.get(1);
+        int progressArrowSize = 26;
 
         return maxProgress != 0 && progress != 0 ? progress * progressArrowSize / maxProgress : 0;
     }
@@ -71,7 +76,7 @@ public class CoalFiredBoilingMenu extends AbstractContainerMenu {
     private static final int TE_INVENTORY_FIRST_SLOT_INDEX = VANILLA_FIRST_SLOT_INDEX + VANILLA_SLOT_COUNT;
 
     // THIS YOU HAVE TO DEFINE!
-    private static final int TE_INVENTORY_SLOT_COUNT = CoalFiredBoilerBlockEntity.SLOT_SIZE;  // must be the number of slots you have!
+    private static final int TE_INVENTORY_SLOT_COUNT = InjectionMoldingMachineBlockEntity.SLOT_SIZE;  // must be the number of slots you have!
     @Override
     public ItemStack quickMoveStack(Player playerIn, int pIndex) {
         Slot sourceSlot = slots.get(pIndex);
@@ -108,9 +113,8 @@ public class CoalFiredBoilingMenu extends AbstractContainerMenu {
     @Override
     public boolean stillValid(Player pPlayer) {
         return stillValid(ContainerLevelAccess.create(level, blockEntity.getBlockPos()),
-                pPlayer, ModBlocks.COAL_FIRED_BOILER.get());
+                pPlayer, ModBlocks.INJECTION_MOLDING_MACHINE.get());
     }
-
     private void addPlayerInventory(Inventory playerInventory) {
         for (int i = 0; i < 3; ++i) {
             for (int l = 0; l < 9; ++l) {
@@ -124,6 +128,4 @@ public class CoalFiredBoilingMenu extends AbstractContainerMenu {
             this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 142));
         }
     }
-
-
 }

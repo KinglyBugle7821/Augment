@@ -1,9 +1,10 @@
-// 1.20.1	2024-05-04T17:45:24.4386693	Item Models: augment
+// 1.20.1	2024-05-05T12:02:58.6293635	Item Models: augment
 61cb8022a079561237774d096de1e7fb549ceb75 assets/augment/models/item/ash_dust.json
 d22f579269a424043bf90fdc7cb9a767b808250b assets/augment/models/item/bark_spud.json
 d9896e96de75dd16763883cb744ead6d668d078d assets/augment/models/item/black_plastic_sheet.json
 883041dad346a62e41177deab5f2765d022818e7 assets/augment/models/item/blue_plastic_sheet.json
 15d35af673da5cec84abc998d0752d8c603e1ec3 assets/augment/models/item/brown_plastic_sheet.json
+9455e4da8ac4b54fe7e49aa417f24fac8e7dd600 assets/augment/models/item/crude_oil_bucket.json
 d799beb7c823598950ef14739cb53ad3d6ad2545 assets/augment/models/item/cyan_plastic_sheet.json
 882ae06f74e0d12c9f304c73d173ec5df5f7bdc8 assets/augment/models/item/gray_plastic_sheet.json
 93979b0f3be2af98bc5e5c6775711d67cc922de7 assets/augment/models/item/green_plastic_sheet.json

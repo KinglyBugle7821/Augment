@@ -258,7 +258,7 @@ public class CoalFiredBoilerBlockEntity extends BlockEntity implements MenuProvi
     }
 
     private void recipeProvider(Level pLevel, BlockPos pPos, BlockState pState) {
-        if (hasRecipe()){
+        if (hasRecipe() && !isEnergyFull()){
             increaseCraftingProgress();
             setChanged(pLevel, pPos, pState);
             if (hasProgressFinished()){
@@ -279,9 +279,13 @@ public class CoalFiredBoilerBlockEntity extends BlockEntity implements MenuProvi
         }
     }
 
+    private boolean isEnergyFull() {
+        return ENERGY_STORAGE.getEnergyStored() == CAPACITY;
+    }
+
 
     private void receiveHugeEnergy() {
-        ENERGY_STORAGE.receiveEnergy(150, false);
+        ENERGY_STORAGE.receiveEnergy(600, false);
     }
 
     private boolean isCoalBlock() {
@@ -289,7 +293,7 @@ public class CoalFiredBoilerBlockEntity extends BlockEntity implements MenuProvi
     }
 
     private void receiveNormalEnergy() {
-        ENERGY_STORAGE.receiveEnergy(16, false);
+        ENERGY_STORAGE.receiveEnergy(64, false);
     }
 
     private boolean isCoal() {

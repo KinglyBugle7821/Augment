@@ -35,6 +35,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.RESIN_EXTRACTOR_FULL.get());
 
         this.dropSelf(ModBlocks.COAL_FIRED_BOILER.get());
+        this.dropSelf(ModBlocks.INJECTION_MOLDING_MACHINE.get());
     }
 
     //    protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

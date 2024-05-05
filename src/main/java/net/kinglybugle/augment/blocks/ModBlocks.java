@@ -3,12 +3,15 @@ package net.kinglybugle.augment.blocks;
 import net.kinglybugle.augment.Augment;
 import net.kinglybugle.augment.Items.ModItems;
 import net.kinglybugle.augment.blocks.custom.CoalFiredBoilerBlock;
+import net.kinglybugle.augment.blocks.custom.InjectionMoldingMachineBlock;
 import net.kinglybugle.augment.blocks.custom.ModFlammableRotatedPillarBlock;
 import net.kinglybugle.augment.blocks.custom.ResinExtractorBlock;
+import net.kinglybugle.augment.fluid.ModFluids;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -33,6 +36,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> RESIN_EXTRACTOR_FULL = registerBlock("resin_extractor_full", () -> new ResinExtractorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
     //Energy Block
     public static final RegistryObject<Block> COAL_FIRED_BOILER = registerBlock("coal_fired_boiler", () -> new CoalFiredBoilerBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()));
+    public static final RegistryObject<Block> INJECTION_MOLDING_MACHINE = registerBlock("injection_molding_machine", () -> new InjectionMoldingMachineBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+    //Fluid Block
+    public static final RegistryObject<LiquidBlock> CRUDE_OIL_BLOCK = BLOCKS.register("crude_oil_block", () -> new LiquidBlock(ModFluids.SOURCE_CRUDE_OIL, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

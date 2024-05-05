@@ -21,6 +21,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RESIN_BALL);
         simpleItem(ModItems.ASH_DUST);
         simpleItem(ModItems.BARK_SPUD);
+        simpleItem(ModItems.CRUDE_OIL_BUCKET);
 
         simpleItem(ModItems.PLASTIC_SHEET);
         simpleItem(ModItems.WHITE_PLASTIC_SHEET);

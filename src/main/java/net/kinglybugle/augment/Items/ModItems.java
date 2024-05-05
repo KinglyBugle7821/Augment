@@ -2,7 +2,10 @@ package net.kinglybugle.augment.Items;
 
 import net.kinglybugle.augment.Augment;
 import net.kinglybugle.augment.Items.custom.BarkSpudItem;
+import net.kinglybugle.augment.fluid.ModFluids;
+import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -34,6 +37,8 @@ public class ModItems {
     public static final RegistryObject<Item> BLACK_PLASTIC_SHEET = ITEMS.register("black_plastic_sheet", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> BARK_SPUD = ITEMS.register("bark_spud", () -> new BarkSpudItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> CRUDE_OIL_BUCKET = ITEMS.register("crude_oil_bucket", () -> new BucketItem(ModFluids.SOURCE_CRUDE_OIL, new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

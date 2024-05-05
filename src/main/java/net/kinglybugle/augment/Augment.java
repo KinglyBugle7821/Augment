@@ -4,10 +4,13 @@ import com.mojang.logging.LogUtils;
 import net.kinglybugle.augment.Items.ModItems;
 import net.kinglybugle.augment.blocks.ModBlocks;
 import net.kinglybugle.augment.blocks.entity.ModBlockEntities;
+import net.kinglybugle.augment.fluid.ModFluidTypes;
+import net.kinglybugle.augment.fluid.ModFluids;
 import net.kinglybugle.augment.misc.ModCreativeModeTabs;
 import net.kinglybugle.augment.networking.ModMessages;
 import net.kinglybugle.augment.recipes.ModRecipes;
 import net.kinglybugle.augment.screen.CoalFiredBoilingScreen;
+import net.kinglybugle.augment.screen.InjectionMoldingMachineScreen;
 import net.kinglybugle.augment.screen.ModMenuTypes;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.api.distmarker.Dist;
@@ -38,6 +41,8 @@ public class Augment {
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
         ModRecipes.register(modEventBus);
+        ModFluids.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -67,6 +72,8 @@ public class Augment {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             MenuScreens.register(ModMenuTypes.COAL_GENERATOR_MENU.get(), CoalFiredBoilingScreen::new);
+
+            MenuScreens.register(ModMenuTypes.INJECTION_MOLDING_MACHINE_MENU.get(), InjectionMoldingMachineScreen::new);
         }
     }
 }

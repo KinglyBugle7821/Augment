@@ -30,6 +30,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.SEMI_STRIPPED_MANGROVE_LOG.get());
 
                         pOutput.accept(ModBlocks.COAL_FIRED_BOILER.get());
+                        pOutput.accept(ModBlocks.INJECTION_MOLDING_MACHINE.get());
 
                         pOutput.accept(ModItems.PLASTIC_SHEET.get());
                         pOutput.accept(ModItems.WHITE_PLASTIC_SHEET.get());
@@ -52,6 +53,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RESIN_BALL.get());
                         pOutput.accept(ModItems.ASH_DUST.get());
                         pOutput.accept(ModItems.BARK_SPUD.get());
+                        pOutput.accept(ModItems.CRUDE_OIL_BUCKET.get());
 
                     })
                     .build());
