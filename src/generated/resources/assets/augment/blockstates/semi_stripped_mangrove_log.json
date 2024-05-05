@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "augment:block/semi_stripped_mangrove_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "augment:block/semi_stripped_mangrove_log"
+    },
+    "axis=z": {
+      "model": "augment:block/semi_stripped_mangrove_log_horizontal",
+      "x": 90
+    }
+  }
+}

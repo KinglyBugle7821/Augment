@@ -1,0 +1,21 @@
+{
+  "values": [
+    "augment:plastic_sheet",
+    "augment:white_plastic_sheet",
+    "augment:red_plastic_sheet",
+    "augment:orange_plastic_sheet",
+    "augment:pink_plastic_sheet",
+    "augment:yellow_plastic_sheet",
+    "augment:lime_plastic_sheet",
+    "augment:green_plastic_sheet",
+    "augment:light_blue_plastic_sheet",
+    "augment:cyan_plastic_sheet",
+    "augment:blue_plastic_sheet",
+    "augment:magenta_plastic_sheet",
+    "augment:purple_plastic_sheet",
+    "augment:brown_plastic_sheet",
+    "augment:gray_plastic_sheet",
+    "augment:light_gray_plastic_sheet",
+    "augment:black_plastic_sheet"
+  ]
+}

@@ -1,0 +1,8 @@
+// 1.20.1	2024-05-04T17:25:05.9856559	Tags for minecraft:block mod id augment
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
+493c1048508d95a7e6bafa835b1a7cf90e07dfef data/minecraft/tags/blocks/logs_that_burn.json
+359ed08e9e3daea0e859f472728b3d56cc6e2ed5 data/minecraft/tags/blocks/mineable/axe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json

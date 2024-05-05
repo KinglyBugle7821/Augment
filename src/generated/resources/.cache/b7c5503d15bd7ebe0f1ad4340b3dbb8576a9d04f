@@ -1,0 +1,4 @@
+// 1.20.1	2024-05-04T17:25:05.917647	Tags for minecraft:item mod id augment
+913cd7ca17c20bf46c2acfa46f5eefce3aecc167 data/augment/tags/items/dye_item.json
+b2d1720357abc82f10d930015aff881df2bc6aab data/augment/tags/items/plastic_item.json
+493c1048508d95a7e6bafa835b1a7cf90e07dfef data/minecraft/tags/items/logs_that_burn.json

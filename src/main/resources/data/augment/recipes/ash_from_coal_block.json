@@ -1,0 +1,10 @@
+{
+  "type": "augment:coal_fired_boiler",
+  "ingredients": [
+    {"item": "minecraft:coal_block"}
+  ],
+  "output": {
+    "count": 9,
+    "item": "augment:ash_dust"
+  }
+}

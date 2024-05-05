@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model":  "augment:block/resin_extractor_full"},
+    "facing=east": { "model":  "augment:block/resin_extractor_full", "y":  90},
+    "facing=south": { "model":  "augment:block/resin_extractor_full", "y": 180},
+    "facing=west": { "model":  "augment:block/resin_extractor_full", "y": 270}
+  }
+}

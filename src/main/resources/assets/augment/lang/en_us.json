@@ -1,0 +1,44 @@
+{
+
+  "item.augment.crude_oil_bucket": "Crude Oil Bucket",
+  "item.augment.bark_spud": "Bark Spud",
+  "item.augment.resin_ball": "Resin Ball",
+  "item.augment.ash_dust": "Ash Dust",
+
+  "item.augment.plastic_sheet": "Plastic Sheet",
+  "item.augment.white_plastic_sheet": "White Plastic Sheet",
+  "item.augment.red_plastic_sheet": "Red Plastic Sheet",
+  "item.augment.orange_plastic_sheet": " Orange Plastic Sheet",
+  "item.augment.pink_plastic_sheet": "Pink Plastic Sheet",
+  "item.augment.yellow_plastic_sheet": "Yellow Plastic Sheet",
+  "item.augment.lime_plastic_sheet": "Lime Plastic Sheet",
+  "item.augment.green_plastic_sheet": "Green Plastic Sheet",
+  "item.augment.light_blue_plastic_sheet": "Light Blue Plastic Sheet",
+  "item.augment.cyan_plastic_sheet": "Cyan Plastic Sheet",
+  "item.augment.blue_plastic_sheet": "Blue Plastic Sheet",
+  "item.augment.magenta_plastic_sheet": "Magenta Plastic Sheet",
+  "item.augment.purple_plastic_sheet": "Purple Plastic Sheet",
+  "item.augment.brown_plastic_sheet": "Brown Plastic Sheet",
+  "item.augment.gray_plastic_sheet": "Gray Plastic Sheet",
+  "item.augment.light_gray_plastic_sheet": "Light Gray Plastic Sheet",
+  "item.augment.black_plastic_sheet": "Black Plastic Sheet",
+
+  "block.augment.injection_molding_machine": "Injection Molding Machine",
+  "block.augment.coal_fired_boiler": "Coal-Fired Boiler",
+
+  "block.augment.semi_stripped_oak_log": "Semi Stripped Oak Log",
+  "block.augment.semi_stripped_dark_oak_log": "Semi Stripped Dark Oak Log",
+  "block.augment.semi_stripped_acacia_log": "Semi Stripped Acacia Log",
+  "block.augment.semi_stripped_cherry_log": "Semi Stripped Cherry Log",
+  "block.augment.semi_stripped_birch_log": "Semi Stripped Birch Log",
+  "block.augment.semi_stripped_jungle_log": "Semi Stripped Jungle Log",
+  "block.augment.semi_stripped_spruce_log": "Semi Stripped Spruce Log",
+  "block.augment.semi_stripped_warped_stem": "Semi Stripped Warped Stem",
+  "block.augment.semi_stripped_crimson_stem": "Semi Stripped Crimson Stem",
+  "block.augment.semi_stripped_mangrove_log": "Semi Stripped Mangrove Log",
+
+  "block.augment.resin_extractor_empty": "Resin Extractor",
+  "block.augment.resin_extractor_full": "Resin Extractor",
+
+  "creativetab.augment_tab": "Augment"
+}
