@@ -1,0 +1,15 @@
+{
+  "type": "augment:injection_molding",
+  "ingredients": [
+    {"item": "minecraft:pink_dye"},
+    {"item": "augment:resin_ball"}
+  ],
+  "fluid": {
+    "FluidName": "augment:crude_oil_fluid",
+    "Amount": 250
+  },
+  "output": {
+    "count": 1,
+    "item": "augment:pink_plastic_sheet"
+  }
+}

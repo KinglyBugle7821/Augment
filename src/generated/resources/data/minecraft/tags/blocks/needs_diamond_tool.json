@@ -1,3 +1,9 @@
 {
-  "values": []
+  "values": [
+    "augment:titanium_block",
+    "augment:titanium_ore",
+    "augment:deepslate_titanium_ore",
+    "augment:platinum_core",
+    "augment:titanium_core"
+  ]
 }

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model":  "augment:block/fusion_forge"},
+    "facing=east": { "model":  "augment:block/fusion_forge", "y":  90},
+    "facing=south": { "model":  "augment:block/fusion_forge", "y": 180},
+    "facing=west": { "model":  "augment:block/fusion_forge", "y": 270}
+  }
+}

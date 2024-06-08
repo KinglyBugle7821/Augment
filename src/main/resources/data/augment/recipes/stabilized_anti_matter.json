@@ -1,0 +1,10 @@
+{
+  "type": "augment:stabilization_chamber",
+  "ingredients": [
+    {"item": "augment:anti_matter"}
+  ],
+  "output": {
+    "count": 1,
+    "item": "augment:stabilized_anti_matter"
+  }
+}

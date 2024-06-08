@@ -1,0 +1,11 @@
+{
+  "type": "augment:fusion_forge",
+  "ingredients": [
+    {"item": "minecraft:coal"},
+    {"item": "minecraft:iron_ingot"}
+  ],
+  "output": {
+    "count": 1,
+    "item": "augment:steel_ingot"
+  }
+}

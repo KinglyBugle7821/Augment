@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model":  "augment:block/astral_laser"},
+    "facing=east": { "model":  "augment:block/astral_laser", "y":  90},
+    "facing=south": { "model":  "augment:block/astral_laser", "y": 180},
+    "facing=west": { "model":  "augment:block/astral_laser", "y": 270}
+  }
+}

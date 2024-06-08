@@ -7,6 +7,8 @@
     "augment:semi_stripped_acacia_log",
     "augment:semi_stripped_dark_oak_log",
     "augment:semi_stripped_cherry_log",
-    "augment:semi_stripped_birch_log"
+    "augment:semi_stripped_birch_log",
+    "augment:resin_extractor_empty",
+    "augment:resin_extractor_full"
   ]
 }

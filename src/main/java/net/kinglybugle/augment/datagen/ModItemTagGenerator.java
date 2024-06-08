@@ -68,5 +68,17 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(Items.GRAY_DYE)
                 .add(Items.LIGHT_GRAY_DYE)
                 .add(Items.BLACK_DYE);
+        this.tag(ModTags.Items.INGOT_ITEM)
+                .add(Items.COAL)
+                .add(Items.IRON_INGOT)
+                .add(Items.COPPER_INGOT)
+                .add(Items.GOLD_INGOT)
+                .add(ModItems.STEEL_INGOT.get())
+                .add(ModItems.PLATINUM_INGOT.get())
+                .add(ModItems.TITANIUM_INGOT.get());
+        this.tag(ModTags.Items.LENS_ITEM)
+                .add(ModItems.ATMOSPHERE_LENS.get());
+        this.tag(ModTags.Items.UNSTABLE_ITEM)
+                .add(ModItems.ANTI_MATTER.get());
     }
 }

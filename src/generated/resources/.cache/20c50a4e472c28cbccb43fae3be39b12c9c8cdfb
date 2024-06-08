@@ -1,5 +1,7 @@
-// 1.20.1	2024-05-05T12:02:58.6293635	Item Models: augment
+// 1.20.1	2024-05-19T06:39:50.9789969	Item Models: augment
+8136214c67e0656951241081fb104af7e99428ce assets/augment/models/item/anti_matter.json
 61cb8022a079561237774d096de1e7fb549ceb75 assets/augment/models/item/ash_dust.json
+564949552fc6713a03f3f52454fb9d6f9d06cfd1 assets/augment/models/item/atmosphere_lens.json
 d22f579269a424043bf90fdc7cb9a767b808250b assets/augment/models/item/bark_spud.json
 d9896e96de75dd16763883cb744ead6d668d078d assets/augment/models/item/black_plastic_sheet.json
 883041dad346a62e41177deab5f2765d022818e7 assets/augment/models/item/blue_plastic_sheet.json
@@ -15,8 +17,17 @@ f850e03367eec5c897ed2cdf566b6bc162e6dddd assets/augment/models/item/magenta_plas
 0962c940dd1b3aef9031bde09417acb415f1b19f assets/augment/models/item/orange_plastic_sheet.json
 df92d0f7d12d2d1c7d6f469f5b89073df73214bf assets/augment/models/item/pink_plastic_sheet.json
 26f84188b4f154c602fd31eb7e6b4f529692eb58 assets/augment/models/item/plastic_sheet.json
+6f944df7e185c097ba30c5bca2dce9c30988653e assets/augment/models/item/platinum_chunk.json
+2d7358115c93d210561c2049ef2f6f0dfed2dbbf assets/augment/models/item/platinum_ingot.json
 ec63a61171cf2daeeac1986f4716266dac06e2fc assets/augment/models/item/purple_plastic_sheet.json
+c17b01b7c9915a3cab0a50f86556fab6e6e59bda assets/augment/models/item/raw_platinum.json
+382f4e1c469767b52e29fc6922b8c14a982b99cf assets/augment/models/item/raw_titanium.json
 cc17164d3b1a7c19225290566f10529eda45c016 assets/augment/models/item/red_plastic_sheet.json
 880e989d70104ca18e9f522e410569bbbce706d2 assets/augment/models/item/resin_ball.json
+9e986efa59745f6ac4d5a34b4a16ad9fdf48dfc3 assets/augment/models/item/stabilized_anti_matter.json
+484beec03f2b0b6edfb76c643eafa201513c454f assets/augment/models/item/steel_chunk.json
+88a58b710049cdeb769f154059b2eaae5dd699c0 assets/augment/models/item/steel_ingot.json
+6b3789536100be5a6b9aadd740b3bce8b111b229 assets/augment/models/item/titanium_chunk.json
+406b24fc1e32133879bb7f780ee5120d82849083 assets/augment/models/item/titanium_ingot.json
 bebe4c5f08e2818dfd3d730368ec214f04921ff7 assets/augment/models/item/white_plastic_sheet.json
 6aed69af7b60c91522cbd5fd71a734a09c67f3d5 assets/augment/models/item/yellow_plastic_sheet.json

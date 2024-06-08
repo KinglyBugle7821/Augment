@@ -23,6 +23,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BARK_SPUD);
         simpleItem(ModItems.CRUDE_OIL_BUCKET);
 
+        simpleItem(ModItems.STEEL_INGOT);
+        simpleItem(ModItems.STEEL_CHUNK);
+        simpleItem(ModItems.PLATINUM_INGOT);
+        simpleItem(ModItems.PLATINUM_CHUNK);
+        simpleItem(ModItems.RAW_PLATINUM);
+        simpleItem(ModItems.TITANIUM_INGOT);
+        simpleItem(ModItems.TITANIUM_CHUNK);
+        simpleItem(ModItems.RAW_TITANIUM);
+        simpleItem(ModItems.ANTI_MATTER);
+        simpleItem(ModItems.STABILIZED_ANTI_MATTER);
+
+        simpleItem(ModItems.ATMOSPHERE_LENS);
+
         simpleItem(ModItems.PLASTIC_SHEET);
         simpleItem(ModItems.WHITE_PLASTIC_SHEET);
         simpleItem(ModItems.RED_PLASTIC_SHEET);

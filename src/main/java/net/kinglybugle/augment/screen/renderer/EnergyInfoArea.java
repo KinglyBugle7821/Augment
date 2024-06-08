@@ -16,15 +16,17 @@ import java.util.List;
  *  Details can be found in the license file in the root folder of this project
  */
 public class EnergyInfoArea extends InfoArea {
+    public static final int ENERGY_BAR_WIDTH = 16;
+    public static final int ENERGY_BAR_HEIGHT = 65;
 
     private final IEnergyStorage energy;
 
     public EnergyInfoArea(int xMin, int yMin)  {
-        this(xMin, yMin, null,16,65);
+        this(xMin, yMin, null, ENERGY_BAR_WIDTH, ENERGY_BAR_HEIGHT);
     }
 
     public EnergyInfoArea(int xMin, int yMin, IEnergyStorage energy)  {
-        this(xMin, yMin, energy,16,65);
+        this(xMin, yMin, energy, ENERGY_BAR_WIDTH,ENERGY_BAR_HEIGHT);
     }
 
     public EnergyInfoArea(int xMin, int yMin, IEnergyStorage energy, int width, int height)  {

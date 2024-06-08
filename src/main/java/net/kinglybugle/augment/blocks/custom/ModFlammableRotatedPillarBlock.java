@@ -1,22 +1,14 @@
 package net.kinglybugle.augment.blocks.custom;
 
-import net.kinglybugle.augment.Augment;
 import net.kinglybugle.augment.blocks.ModBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.core.Position;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.RotatedPillarBlock;
-import net.minecraft.world.level.block.WallBannerBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import java.util.Random;
 
@@ -56,7 +48,9 @@ public class ModFlammableRotatedPillarBlock extends RotatedPillarBlock {
 
     @Override
     public void randomTick(BlockState pState, ServerLevel pLevel, BlockPos pPos, RandomSource pRandom) {
-
+        growSkin(pState, pLevel, pPos, pRandom);
+    }
+    private void growSkin(BlockState pState, ServerLevel pLevel, BlockPos pPos, RandomSource pRandom){
         BlockState foundBlockNorth = pLevel.getBlockState(new BlockPos(pPos.getX(), pPos.getY(), pPos.getZ() - 1));
         BlockState foundBlockSouth = pLevel.getBlockState(new BlockPos(pPos.getX(), pPos.getY(), pPos.getZ() + 1));
         BlockState foundBlockEast = pLevel.getBlockState(new BlockPos(pPos.getX() + 1, pPos.getY(), pPos.getZ()));

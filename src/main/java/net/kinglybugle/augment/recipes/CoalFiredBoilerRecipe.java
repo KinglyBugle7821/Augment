@@ -3,7 +3,6 @@ package net.kinglybugle.augment.recipes;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.kinglybugle.augment.Augment;
-import net.kinglybugle.augment.blocks.entity.CoalFiredBoilerBlockEntity;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.network.FriendlyByteBuf;

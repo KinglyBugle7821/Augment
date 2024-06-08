@@ -1,0 +1,15 @@
+{
+  "type": "augment:injection_molding",
+  "ingredients": [
+    {"item": "minecraft:lime_dye"},
+    {"item": "minecraft:slime_ball"}
+  ],
+  "fluid": {
+    "FluidName": "augment:crude_oil_fluid",
+    "Amount": 250
+  },
+  "output": {
+    "count": 1,
+    "item": "augment:lime_plastic_sheet"
+  }
+}

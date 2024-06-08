@@ -2,6 +2,9 @@ package net.kinglybugle.augment.networking;
 
 import net.kinglybugle.augment.Augment;
 import net.kinglybugle.augment.networking.packet.EnergySyncS2CPacket;
+import net.kinglybugle.augment.networking.packet.FluidSyncS2CPacket;
+import net.kinglybugle.augment.networking.packet.GreenParticleSpawnPacket;
+import net.kinglybugle.augment.networking.packet.SmokeParticleSpawnPacket;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraftforge.network.NetworkDirection;
@@ -31,6 +34,21 @@ public class ModMessages {
                 .decoder(EnergySyncS2CPacket::new)
                 .encoder(EnergySyncS2CPacket::toBytes)
                 .consumerMainThread(EnergySyncS2CPacket::handle)
+                .add();
+        net.messageBuilder(FluidSyncS2CPacket.class, id(), NetworkDirection.PLAY_TO_CLIENT)
+                .decoder(FluidSyncS2CPacket::new)
+                .encoder(FluidSyncS2CPacket::toBytes)
+                .consumerMainThread(FluidSyncS2CPacket::handle)
+                .add();
+        net.messageBuilder(SmokeParticleSpawnPacket.class, id(), NetworkDirection.PLAY_TO_CLIENT)
+                .decoder(SmokeParticleSpawnPacket::decode)
+                .encoder(SmokeParticleSpawnPacket::encode)
+                .consumerMainThread(SmokeParticleSpawnPacket::handle)
+                .add();
+        net.messageBuilder(GreenParticleSpawnPacket.class, id(), NetworkDirection.PLAY_TO_CLIENT)
+                .decoder(GreenParticleSpawnPacket::decode)
+                .encoder(GreenParticleSpawnPacket::encode)
+                .consumerMainThread(GreenParticleSpawnPacket::handle)
                 .add();
     }
 

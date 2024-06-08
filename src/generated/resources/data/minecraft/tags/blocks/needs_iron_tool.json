@@ -1,3 +1,17 @@
 {
-  "values": []
+  "values": [
+    "augment:simple_injection_molding_machine",
+    "augment:simple_coal_fired_boiler",
+    "augment:simple_fusion_forge",
+    "augment:basic_coal_fired_boiler",
+    "augment:basic_injection_molding_machine",
+    "augment:basic_fusion_forge",
+    "augment:steel_block",
+    "augment:platinum_block",
+    "augment:platinum_ore",
+    "augment:deepslate_platinum_ore",
+    "augment:golden_core",
+    "augment:steel_core",
+    "augment:laser_retriever"
+  ]
 }

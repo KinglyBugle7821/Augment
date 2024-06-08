@@ -23,8 +23,89 @@
   "item.augment.light_gray_plastic_sheet": "Light Gray Plastic Sheet",
   "item.augment.black_plastic_sheet": "Black Plastic Sheet",
 
-  "block.augment.injection_molding_machine": "Injection Molding Machine",
-  "block.augment.coal_fired_boiler": "Coal-Fired Boiler",
+  "item.augment.steel_ingot": "Steel Ingot",
+  "item.augment.platinum_ingot": "Platinum Ingot",
+  "item.augment.titanium_ingot": "Titanium Ingot",
+
+  "item.augment.steel_chunk": "Steel Chunk",
+  "item.augment.platinum_chunk": "Platinum Chunk",
+  "item.augment.titanium_chunk": "Titanium Chunk",
+  "item.augment.anti_matter": "Anti Matter",
+  "item.augment.stabilized_anti_matter": "Stabilized Anti Matter",
+
+  "item.augment.raw_platinum": "Raw Platinum",
+  "item.augment.raw_titanium": "Raw Titanium",
+
+  "item.augment.atmosphere_lens": "Atmosphere Lens",
+
+  "gui.augment.injection_molding_machine_display": "Injection Molding",
+
+  "block.augment.simple_injection_molding_machine": "Injection Molding Machine",
+  "block.augment.simple_coal_fired_boiler": "Coal-Fired Boiler",
+  "block.augment.simple_fusion_forge": "Fusion Forge",
+
+  "block.augment.basic_injection_molding_machine": "Injection Molding Machine",
+  "block.augment.basic_coal_fired_boiler": "Coal-Fired Boiler",
+  "block.augment.basic_fusion_forge": "Fusion Forge",
+
+  "block.augment.advanced_injection_molding_machine": "Injection Molding Machine",
+  "block.augment.advanced_coal_fired_boiler": "Coal-Fired Boiler",
+  "block.augment.advanced_fusion_forge": "Fusion Forge",
+
+  "block.augment.reinforced_injection_molding_machine": "Injection Molding Machine",
+  "block.augment.reinforced_coal_fired_boiler": "Coal-Fired Boiler",
+  "block.augment.reinforced_fusion_forge": "Fusion Forge",
+
+  "block.augment.high_grade_injection_molding_machine": "Injection Molding Machine",
+  "block.augment.high_grade_coal_fired_boiler": "Coal-Fired Boiler",
+  "block.augment.high_grade_fusion_forge": "Fusion Forge",
+
+  "block.augment.titanium_injection_molding_machine": "Injection Molding Machine",
+  "block.augment.titanium_coal_fired_boiler": "Coal-Fired Boiler",
+  "block.augment.titanium_fusion_forge": "Fusion Forge",
+  "block.augment.titanium_astral_laser": "Astral Laser",
+  "block.augment.stabilization_chamber": "Stabilization Chamber",
+
+  "block.augment.quantum_injection_molding_machine": "Injection Molding Machine",
+  "block.augment.quantum_coal_fired_boiler": "Coal-Fired Boiler",
+  "block.augment.quantum_fusion_forge": "Fusion Forge",
+
+  "block.augment.source_atmosphere_laser_beam": "Source Atmosphere Laser Beam",
+  "block.augment.secondary_atmosphere_laser_beam": "Secondary Atmosphere Laser Beam",
+
+  "block.augment.wooden_core": "Wooden Core",
+  "block.augment.golden_core": "Golden Core",
+  "block.augment.steel_core": "Steel Core",
+  "block.augment.platinum_core": "Platinum Core",
+  "block.augment.titanium_core": "Titanium Core",
+
+  "block.augment.plastic_core": "Plastic Core",
+  "block.augment.white_plastic_core": "White Plastic Core",
+  "block.augment.red_plastic_core": "Red Plastic Core",
+  "block.augment.orange_plastic_core": "Orange Plastic Core",
+  "block.augment.yellow_plastic_core": "Yellow Plastic Core",
+  "block.augment.green_plastic_core": "Green Plastic Core",
+  "block.augment.blue_plastic_core": "Blue Plastic Core",
+  "block.augment.purple_plastic_core": "Purple Plastic Core",
+  "block.augment.pink_plastic_core": "Pink Plastic Core",
+  "block.augment.gray_plastic_core": "Gray Plastic Core",
+  "block.augment.light_gray_plastic_core": "Light Gray Plastic Core",
+  "block.augment.light_blue_plastic_core": "Light Blue Plastic Core",
+  "block.augment.cyan_plastic_core": "Cyan Plastic Core",
+  "block.augment.lime_plastic_core": "Lime Plastic Core",
+  "block.augment.magenta_plastic_core": "Magenta Plastic Core",
+  "block.augment.brown_plastic_core": "Brown Plastic Core",
+  "block.augment.black_plastic_core": "Black Plastic Core",
+
+  "block.augment.steel_block": "Block of Steel",
+  "block.augment.platinum_block": "Block of Platinum",
+  "block.augment.titanium_block": "Block of Titanium",
+  "block.augment.laser_retriever": "Laser Retriever",
+
+  "block.augment.platinum_ore": "Platinum Ore",
+  "block.augment.deepslate_platinum_ore": "Deepslate Platinum Ore",
+  "block.augment.titanium_ore": "Titanium Ore",
+  "block.augment.deepslate_titanium_ore": "Deepslate Titanium Ore",
 
   "block.augment.semi_stripped_oak_log": "Semi Stripped Oak Log",
   "block.augment.semi_stripped_dark_oak_log": "Semi Stripped Dark Oak Log",
@@ -40,5 +121,17 @@
   "block.augment.resin_extractor_empty": "Resin Extractor",
   "block.augment.resin_extractor_full": "Resin Extractor",
 
-  "creativetab.augment_tab": "Augment"
+  "creativetab.augment_tab": "Augment",
+  "augment.tooltip.liquid.amount.with.capacity": "%s / %s mB",
+  "augment.tooltip.liquid.amount": "%s mB",
+
+  "fluid_type.augment.crude_oil_fluid": "Crude Oil",
+  "gui.augment.disassembler": "Disassembler",
+  "gui.augment.shift_info": "§7Hold SHIFT For Details",
+  "gui.augment.energy_empty": "0 kFe / %s kFE",
+  "gui.augment.fluid_empty": "0 Bucket / %s Bucket",
+  "gui.augment.energy_stored": "%s kFE / %s kFE",
+  "gui.augment.fluid_stored": "%s Bucket / %s Bucket",
+  "gui.augment.screen.energy_stored": "%s kFE / %s kFE",
+  "gui.augment.screen.fluid_stored": "%s Bucket / %s Bucket"
 }

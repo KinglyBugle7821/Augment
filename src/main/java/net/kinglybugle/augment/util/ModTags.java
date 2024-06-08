@@ -13,6 +13,8 @@ public class ModTags {
 
 
         public static final TagKey<Block> ENERGY_BLOCK = tag("energy_block");
+        public static final TagKey<Block> CORE_BLOCK = tag("core_block");
+        public static final TagKey<Block> PLASTIC_BLOCK = tag("plastic_block");
 
 
         private static TagKey<Block> tag(String name) {
@@ -24,6 +26,9 @@ public class ModTags {
 
         public static final TagKey<Item> PLASTIC_ITEM = tag("plastic_item");
         public static final TagKey<Item> DYE_ITEM = tag("dye_item");
+        public static final TagKey<Item> INGOT_ITEM = tag("ingot_item");
+        public static final TagKey<Item> LENS_ITEM = tag("lens_item");
+        public static final TagKey<Item> UNSTABLE_ITEM = tag("unstable_item");
 
 
         private static TagKey<Item> tag(String name) {

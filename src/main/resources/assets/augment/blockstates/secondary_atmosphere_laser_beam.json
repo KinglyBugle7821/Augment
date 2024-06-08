@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "augment:block/atmosphere_laser_beam"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 package net.kinglybugle.augment.Items;
 
 import net.kinglybugle.augment.Augment;
+import net.kinglybugle.augment.Items.custom.AntiMatterItem;
 import net.kinglybugle.augment.Items.custom.BarkSpudItem;
 import net.kinglybugle.augment.fluid.ModFluids;
 import net.minecraft.world.item.BucketItem;
@@ -17,6 +18,20 @@ public class ModItems {
 
     public static final RegistryObject<Item> RESIN_BALL = ITEMS.register("resin_ball", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ASH_DUST = ITEMS.register("ash_dust", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_CHUNK = ITEMS.register("steel_chunk", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_CHUNK = ITEMS.register("platinum_chunk", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_PLATINUM = ITEMS.register("raw_platinum", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_CHUNK = ITEMS.register("titanium_chunk", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_TITANIUM = ITEMS.register("raw_titanium", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ANTI_MATTER = ITEMS.register("anti_matter", () -> new AntiMatterItem(new Item.Properties()));
+    public static final RegistryObject<Item> STABILIZED_ANTI_MATTER = ITEMS.register("stabilized_anti_matter", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ATMOSPHERE_LENS = ITEMS.register("atmosphere_lens", () -> new Item(new Item.Properties().stacksTo(1).durability(150)));
 
     public static final RegistryObject<Item> PLASTIC_SHEET = ITEMS.register("plastic_sheet", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WHITE_PLASTIC_SHEET = ITEMS.register("white_plastic_sheet", () -> new Item(new Item.Properties()));
